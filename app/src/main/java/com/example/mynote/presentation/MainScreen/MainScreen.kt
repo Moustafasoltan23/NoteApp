@@ -48,13 +48,13 @@ class MainScreen( val noteViewModel: noteViewModel) :Screen {
 
             Scaffold (topBar = { TopAppBar(
                 navigationIcon = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = { }) {
                         Icon(imageVector = Icons.Default.ArrowBack, contentDescription =null , tint = Color.White)
 
                     }
                 },
                 actions = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {  }) {
                     Icon(imageVector = Icons.Default.Menu, contentDescription =null , tint = Color.White)
 
                 }
